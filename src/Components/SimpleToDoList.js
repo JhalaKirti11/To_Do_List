@@ -256,7 +256,7 @@ export const SimpleToDoList = () => {
                 </Table>
             </TableContainer>
 
-{/* ---------------- Delete Task Confirmation --------------------- */}
+            {/* ---------------- Delete Task Confirmation --------------------- */}
             <Modal
                 open={openModal}
                 // onClose={handleClose}
@@ -277,7 +277,7 @@ export const SimpleToDoList = () => {
                 </Box>
             </Modal>
 
-{/* ------------------ Edit task Form ----------------- */}
+            {/* ------------------ Edit task Form ----------------- */}
             <Modal
                 open={openModal2}
                 // onClose={handleClose}
